@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">                                                                                                                                                    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu blog tech</title>
+<body>
+<header>
+<h1>Meu blog tech</h1>
+<img src="imagem-blog.png" alt="Livro aberto com um cérebro digital e símbolos de tecnologia, representando o aprendizado de programação">
+<div>
+<p>Vou compartilhar conhecimentos sobre tecnologia e programação.</p>
+</div>
+<style>
+body {
+background-color: #EAF2F8;
+color: #183C63;
+font-family: Arial, sans-serif;
+}
+header {
+background-color: #183C63;
+color: #FFFFFF;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+main {
+background-color: #FFFFFF;
+color: #183C63;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 24px;
+main {
+article {
+            display: flex;
+            }
+}
+}
+}
+footer {
+background-color: #183C63;
+color: #FFFFFF;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 10px;
+}
+img {
+width: 80px;
+height: 80px;
+}
+.artigo-autor {
+font-weight: bold;
+}
+</style>
+</header>
+<main>
+<article>
+<div>
+<h3>O que você vai encontrar aqui</h3>
+<ul>
+<li>Dicas de tecnologia</li>
+<li>Curiosidades sobre programação</li>
+<li>Aprendizado de HTML</li>
+</ul>
+<p>Aprenda mais sobre tecnologia:</p>
+<a href="https://www.wikipedia.org">Acessar a Wikipédia</a>
+<h2>Meu primeiro post</h2>
+<p class="artigo-autor">Por: Sarah</p>
+<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+<!-- Botão para curtir a publicação -->
+<button>❤️
+<!-- Mostra a quantidade de curtidas -->
+<span>0</span>
+</button>-->
+<button>👍 <span>0</span></button>
+<button>😂 <span>0</span></button>
+</div>
+</article>
+</main>
+</article>
+<article>
+            <img src="imagem-blog.png" alt="Imagem sobre tecnologia">
+
+                <div>
+                        <h2>Meu segundo post</h2>
+                                <p class="artigo-autor">Por: Sarah</p>
+                                        <p>Hoje aprendi a organizar meu blog com HTML e CSS. Também aprendi a criar botões de reação com JavaScript!</p>
+
+                                                <button>❤️ <span>0</span></button>
+                                                        <button>👍 <span>0</span></button>
+                                                                <button>😂 <span>0</span></button>
+                                                                    </div>
+                                                                    </article>
+<article>
+            <h2>5 dicas para aprender programação</h2>
+
+                <p>Por: Sarah</p>
+
+                    <img src="imagem_fim_blog.png" alt="Imagem sobre tecnologia">
+
+                        <h3>Confira as dicas:</h3>
+
+                            <ul>
+                                    <li>Pratique todos os dias.</li>
+                                            <li>Assista a vídeos e tutoriais.</li>
+                                                    <li>Pesquise quando tiver dúvidas.</li>
+                                                            <li>Crie seus próprios projetos.</li>
+                                                                    <li>Não desista dos desafios!</li>
+                                                                        </ul>
+
+                                                                            <p>Aprender programação pode ser divertido e abrir muitas oportunidades!</p>
+                                                                            </article>                                    
+</main>
+<footer>
+<p>Meu blog tech - 2026</p>
+</footer>
+<script>
+    // Seleciona todos os botões da página
+        const botoes = document.querySelectorAll("button");
+
+            // Percorre cada botão
+                botoes.forEach(function (botao) {
+
+                        // Controla se este botão já foi curtido
+                                let curtiu = false;
+
+                                        // Detecta quando o botão é clicado
+                                                botao.addEventListener("click", botaoClicado);
+
+                                                        // Função executada ao clicar
+                                                                function botaoClicado() {
+                                                                            // Encontra o contador deste botão
+                                                                                        let texto = botao.querySelector("span");
+
+                                                                                                    // Se ainda não curtiu, aumenta o contador
+                                                                                                                if (curtiu === false) {
+                                                                                                                                texto.textContent++;
+                                                                                                                                                curtiu = true;
+                                                                                                                                                            } else {
+                                                                                                                                                                            // Se já curtiu, diminui o contador
+                                                                                                                                                                                            texto.textContent--;
+                                                                                                                                                                                                            curtiu = false;
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                    </script>                        
+</body>
+</html 
